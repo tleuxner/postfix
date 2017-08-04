@@ -6,7 +6,7 @@ Helper scripts for Postfix
  #### /etc/postfix/main.cf:
     
     mua_recipient_restrictions = check_recipient_access
-        lmdb:$config_directory/recipient_acces
+        lmdb:$config_directory/recipient_access
         [...]
         
     smtpd_recipient_restrictions = check_recipient_access
